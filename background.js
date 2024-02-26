@@ -1,0 +1,9 @@
+chrome.webRequest.onBeforeRequest.addListener(
+    function(details){
+        return{
+            cancel:true
+        };
+    },
+    {urls:["*://*.doubleclick.net/*","*://*.googleadservices.com/*","https://youtu.be/F9Hj_plGbs8"]},
+    ["blocking"]
+);

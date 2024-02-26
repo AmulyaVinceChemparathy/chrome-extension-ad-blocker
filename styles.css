@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2F4F4F; 
+    width:400px;
+    height:200px;
+    padding: 10px;
+}
+h1{
+    background-color: #8FBC8F;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+h3 {
+    color:aliceblue;
+}
+
+img{
+    margin-left: 10px;
+    max-height: 50px;
+    margin-top: 0px;
+}
+div{
+    display: inline-block;
+    
+}
